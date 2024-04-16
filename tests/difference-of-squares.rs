@@ -1,17 +1,17 @@
 use difference_of_squares as squares;
 
-#[test]
+//Done
 fn test_square_of_sum_1() {
     assert_eq!(1, squares::square_of_sum(1));
 }
 
-#[test]
+//Done
 #[ignore]
 fn test_square_of_sum_5() {
     assert_eq!(225, squares::square_of_sum(5));
 }
 
-#[test]
+//Done
 #[ignore]
 fn test_square_of_sum_100() {
     assert_eq!(25_502_500, squares::square_of_sum(100));
